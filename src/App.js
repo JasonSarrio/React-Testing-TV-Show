@@ -15,6 +15,10 @@ export default function App() {
   const [selectedSeason, setSelectedSeason] = useState("");
   const episodes = seasons[selectedSeason] || [];
 
+ 
+ 
+ 
+ 
   useEffect(() => {
     const fetchShow = () => {
       axios
@@ -35,6 +39,7 @@ export default function App() {
 
   if (!show) {
     return <h2>Fetching data...</h2>;
+    
   }
 
   return (
