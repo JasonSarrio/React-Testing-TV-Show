@@ -16,6 +16,7 @@ export default function App() {
   const episodes = seasons[selectedSeason] || [];
 
  
+// Finish Project 
  
  
  
@@ -39,7 +40,9 @@ export default function App() {
 
   if (!show) {
     return <h2>Fetching data...</h2>;
+
     
+
   }
 
   return (
